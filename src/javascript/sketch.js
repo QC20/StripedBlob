@@ -1,9 +1,10 @@
-var container = document.body;
+var width, height;
+var container = document.getElementById('waves');
 
 var scanvas = document.createElement('canvas'),
     scontext = scanvas.getContext('2d');
 
-scanvas.height = height = container.offsetHeight,
+scanvas.height = height = container.offsetHeight;
 scanvas.width = width = container.offsetWidth;
 
 scontext.fillStyle = '#181818';
